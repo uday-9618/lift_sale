@@ -5,9 +5,11 @@ class Meena extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('Meena')),
-      body: Center(child: Text('Meena')),
+    return SingleChildScrollView(
+      child: Scaffold(
+        appBar: AppBar(title: Text('Meena')),
+        body: Center(child: Text('Meena')),
+      ),
     );
   }
 }
