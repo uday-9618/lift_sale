@@ -5,16 +5,16 @@ class leaddetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Scaffold(
-        appBar: AppBar(
-          title: Text('Lead Details'),
-          backgroundColor: Colors.blue,
-          leading: Icon(Icons.arrow_back_ios),
-          actionsPadding: EdgeInsets.all(15),
-          actions: [Icon(Icons.more_vert_outlined)],
-        ),
-        body: Column(
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Lead Details'),
+        backgroundColor: Colors.blue,
+        leading: Icon(Icons.arrow_back_ios),
+        actionsPadding: EdgeInsets.all(15),
+        actions: [Icon(Icons.more_vert_outlined)],
+      ),
+      body: SingleChildScrollView(
+        child: Column(
           children: [
             Container(
               child: Row(
@@ -128,11 +128,7 @@ class leaddetails extends StatelessWidget {
               height: 100,
               width: 550,
               child: Row(
-                children: [
-                  Icon(Icons.call),
-                  SizedBox(height: 10),
-                  Text("Call"),
-                ],
+                children: [Icon(Icons.call), SizedBox(width: 10), Text("Call")],
               ),
             ),
             Container(color: Colors.red, height: 100, width: 550),
