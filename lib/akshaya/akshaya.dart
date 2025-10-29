@@ -124,15 +124,153 @@ class leaddetails extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.lightBlue,
               height: 100,
               width: 550,
               child: Row(
-                children: [Icon(Icons.call), SizedBox(width: 10), Text("Call")],
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.call),
+                      SizedBox(height: 5),
+                      Text("Call"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.whatshot),
+                      SizedBox(height: 5),
+                      Text("Whatsapp"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.schedule),
+                      SizedBox(height: 5),
+                      Text("Schedule"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.task),
+                      SizedBox(height: 5),
+                      Text("Task"),
+                    ],
+                  ),
+                  Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Icon(Icons.edit),
+                      SizedBox(height: 5),
+                      Text("Edit"),
+                    ],
+                  ),
+                ],
               ),
             ),
-            Container(color: Colors.red, height: 100, width: 550),
-            Container(color: Colors.limeAccent, height: 100, width: 550),
+            Container(
+              margin: EdgeInsets.all(5),
+              padding: EdgeInsets.all(7),
+              child: Row(
+                children: [
+                  Icon(Icons.call),
+                  SizedBox(width: 12),
+                  Text(
+                    "Phone Number",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(vertical: 5),
+              child: Row(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                  SizedBox(width: 25),
+                  Icon(Icons.add, size: 15),
+                  Text("91 8699855813"),
+                  SizedBox(width: 100),
+                  Icon(Icons.call),
+                  SizedBox(width: 25),
+                  Icon(Icons.whatshot),
+                  SizedBox(width: 25),
+                  Icon(Icons.message),
+                  SizedBox(width: 5),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(5),
+              padding: EdgeInsets.all(7),
+              child: Row(
+                children: [
+                  Icon(Icons.email),
+                  SizedBox(width: 12),
+                  Text(
+                    "Email Address",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(vertical: 5),
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                  SizedBox(width: 25),
+                  Icon(Icons.add),
+                  SizedBox(width: 12),
+                  Text("Add Email"),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.all(5),
+              padding: EdgeInsets.all(7),
+              child: Row(
+                children: [
+                  SizedBox(width: 12),
+                  Text(
+                    "Add City",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(vertical: 5),
+              child: Row(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                  SizedBox(width: 25),
+                  Text("Add City"),
+                ],
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.symmetric(vertical: 12),
+              child: Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 30, horizontal: 5),
+                  ),
+                  Icon(Icons.corporate_fare),
+                  SizedBox(width: 12),
+                  Text(
+                    "Company Information",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
