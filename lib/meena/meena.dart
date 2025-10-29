@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:lift_sale/meena/components/ScrollContainer.dart';
+import 'package:lift_sale/meena/newleads.dart';
 
 class dashboard extends StatelessWidget {
   const dashboard({super.key});
@@ -33,30 +35,7 @@ class dashboard extends StatelessWidget {
               child: Row(
                 children: [
                   const SizedBox(height: 20),
-                  Container(
-                    padding: EdgeInsets.all(25.0),
-                    height: 130,
-                    width: 200,
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      borderRadius: BorderRadius.circular(20),
-                    ),
-                    child: Column(
-                      children: [
-                        Text(
-                          "12",
-                          style: TextStyle(fontSize: 20, color: Colors.white),
-                        ),
-                        Text(
-                          "Today's Leads",
-                          style: TextStyle(
-                            fontSize: 15,
-                            color: const Color.fromARGB(255, 243, 240, 240),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                  ScrollCOntainer(),
                   const SizedBox(width: 20),
                   Container(
                     padding: EdgeInsets.all(25.0),
@@ -119,7 +98,12 @@ class dashboard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       TextButton.icon(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => newleads()),
+                          );
+                        },
                         style: TextButton.styleFrom(
                           backgroundColor: const Color.fromARGB(
                             255,
