@@ -260,7 +260,7 @@ class leaddetails extends StatelessWidget {
               child: Row(
                 children: [
                   Padding(
-                    padding: EdgeInsets.symmetric(vertical: 30, horizontal: 5),
+                    padding: EdgeInsets.symmetric(vertical: 25, horizontal: 5),
                   ),
                   Icon(Icons.corporate_fare),
                   SizedBox(width: 12),
@@ -268,6 +268,59 @@ class leaddetails extends StatelessWidget {
                     "Company Information",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
+                ],
+              ),
+            ),
+            Align(
+              alignment: Alignment.topLeft,
+              child: Container(
+                child: Column(
+                  children: [
+                    SizedBox(width: 15),
+                    Text("Company", style: TextStyle(color: Colors.grey)),
+                    SizedBox(height: 4),
+                    Text("Techweblabs"),
+                    SizedBox(width: 20),
+                    Text("Position", style: TextStyle(color: Colors.grey)),
+                    SizedBox(height: 1),
+                    Text("Business Director"),
+                    SizedBox(height: 12),
+                    Text("website", style: TextStyle(color: Colors.grey)),
+                    Container(
+                      child: Row(
+                        children: [
+                          SizedBox(width: 25),
+                          Icon(Icons.language),
+                          Text("Techweblabs.com"),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            Card(
+              margin: EdgeInsets.all(5),
+
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Padding(padding: EdgeInsets.all(25)),
+                  SizedBox(width: 1),
+                  Text("Notes", style: TextStyle(fontWeight: FontWeight.bold)),
+                ],
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.symmetric(vertical: 5),
+              child: Row(
+                children: [
+                  Padding(padding: EdgeInsets.symmetric(vertical: 30)),
+                  SizedBox(width: 25),
+                  Icon(Icons.add),
+                  SizedBox(width: 12),
+                  Text("Add Notes"),
                 ],
               ),
             ),
