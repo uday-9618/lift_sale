@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
+import 'package:lift_sale/akshaya/quotes.dart';
 
 import 'meena/meena.dart';
 
@@ -34,8 +35,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       //home: leaddetails(),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      // home: dashboard(),
+      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: quotes(),
     );
   }
 }

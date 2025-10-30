@@ -275,6 +275,8 @@ class leaddetails extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: Container(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+
                   children: [
                     SizedBox(width: 15),
                     Text("Company", style: TextStyle(color: Colors.grey)),
@@ -289,7 +291,7 @@ class leaddetails extends StatelessWidget {
                     Container(
                       child: Row(
                         children: [
-                          SizedBox(width: 25),
+                          SizedBox(width: 5),
                           Icon(Icons.language),
                           Text("Techweblabs.com"),
                         ],
