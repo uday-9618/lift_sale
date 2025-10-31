@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
 import 'package:lift_sale/akshaya/quotes.dart';
+import 'package:lift_sale/akshitha/newlead.dart';
 
 import 'meena/meena.dart';
 
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
       //home: leaddetails(),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
       //home: quotes(),
+      //home:newlead(),
     );
   }
 }
