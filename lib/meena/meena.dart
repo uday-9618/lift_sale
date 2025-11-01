@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/meena/components/ScrollContainer.dart';
+import 'package:lift_sale/meena/createquote.dart';
 import 'package:lift_sale/meena/newleads.dart';
 
 class dashboard extends StatelessWidget {
@@ -124,7 +125,14 @@ class dashboard extends StatelessWidget {
                       ),
                       const SizedBox(width: 30),
                       TextButton.icon(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Createquote(),
+                            ),
+                          );
+                        },
                         style: TextButton.styleFrom(
                           backgroundColor: const Color.fromARGB(
                             255,
