@@ -99,12 +99,7 @@ class dashboard extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.start,
                     children: [
                       TextButton.icon(
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) => newleads()),
-                          );
-                        },
+                        onPressed: () {},
                         style: TextButton.styleFrom(
                           backgroundColor: const Color.fromARGB(
                             255,

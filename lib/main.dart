@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
+
 import 'package:lift_sale/akshaya/quotes.dart';
+import 'package:lift_sale/akshitha/newlead.dart';
 import 'package:lift_sale/meena/finalConfirmationPreview.dart';
 
 import 'meena/meena.dart';
@@ -35,9 +37,11 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: leaddetails(),
+      //home: orders(),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      // home: Finalconfirmationpreview(),
+      //home: quotes(),
+
+      //home:newlead(),
     );
   }
 }
