@@ -7,6 +7,7 @@ import 'package:lift_sale/akshaya/leadsfilter.dart';
 
 import 'package:lift_sale/akshaya/quotes.dart';
 import 'package:lift_sale/akshitha/newlead.dart';
+import 'package:lift_sale/meena/RecentOrders.dart';
 import 'package:lift_sale/meena/SearchLeads.dart';
 import 'package:lift_sale/meena/finalConfirmationPreview.dart';
 import 'package:lift_sale/meena/mark_order_payment.dart';
@@ -45,15 +46,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       //home: orders(),
-<<<<<<< HEAD
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      //home: quotes(),
-      //home: Createorder(),
-      //home: Leadsfilter(),
-=======
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
-      home: Searchleads(),
->>>>>>> 4e941d963fa923e434904e3e5cb9052966d08ba3
     );
   }
 }
