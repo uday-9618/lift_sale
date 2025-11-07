@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
-<<<<<<< HEAD
+
 import 'package:lift_sale/akshaya/createorder.dart';
 import 'package:lift_sale/akshaya/leadsfilter.dart';
-=======
 
 import 'package:lift_sale/akshaya/quotes.dart';
+import 'package:lift_sale/akshaya/searchorders.dart';
 import 'package:lift_sale/akshitha/newlead.dart';
 import 'package:lift_sale/meena/RecentOrders.dart';
 import 'package:lift_sale/meena/SearchLeads.dart';
 import 'package:lift_sale/meena/finalConfirmationPreview.dart';
+import 'package:lift_sale/meena/help_and_support.dart';
 import 'package:lift_sale/meena/mark_order_payment.dart';
 
 import 'meena/meena.dart';
->>>>>>> 4e941d963fa923e434904e3e5cb9052966d08ba3
 
 void main() {
   runApp(const MyApp());
@@ -45,7 +45,6 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: orders(),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

@@ -133,7 +133,7 @@ class _CreatequoteState extends State<Createquote> {
                   const SizedBox(width: 10),
                   Container(child: Text("1")),
                   const SizedBox(width: 10),
-                  Card(child: Icon(Icons.add), color: Colors.blueAccent),
+                  Card(color: Colors.blueAccent, child: Icon(Icons.add)),
                 ],
               ),
             ),
@@ -513,7 +513,7 @@ class _CreatequoteState extends State<Createquote> {
                 child: Row(
                   children: [
                     Text(
-                      "Car dimensions __ \mm width __ mm Depth __mm Height",
+                      "Car dimensions __ mm width __ mm Depth __mm Height",
                       style: TextStyle(color: Color(0xFF4B5563), fontSize: 15),
                     ),
                   ],
