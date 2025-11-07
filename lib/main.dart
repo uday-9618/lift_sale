@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lift_sale/akshaya/Terms_and_conditions.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
 
 import 'package:lift_sale/akshaya/createorder.dart';
@@ -50,7 +51,7 @@ class MyApp extends StatelessWidget {
       //home: quotes(),
       //home: Createorder(),
       //home: Leadsfilter(),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      //home: terms_conditions(),
     );
   }
 }
