@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lift_sale/meena/components/ScrollContainer.dart';
 import 'package:lift_sale/meena/createquote.dart';
-import 'package:lift_sale/meena/newleads.dart';
 
 class dashboard extends StatelessWidget {
   const dashboard({super.key});

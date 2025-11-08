@@ -20,7 +20,7 @@ class leaddetails extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Container(
+                  SizedBox(
                     height: 100,
                     width: 150,
                     child: ElevatedButton(
@@ -84,7 +84,7 @@ class leaddetails extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               height: 50,
               width: 550,
               child: Row(
@@ -123,7 +123,7 @@ class leaddetails extends StatelessWidget {
                 ],
               ),
             ),
-            Container(
+            SizedBox(
               height: 100,
               width: 550,
               child: Row(

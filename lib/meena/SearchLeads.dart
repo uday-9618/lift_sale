@@ -199,7 +199,7 @@ class Searchleads extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 250),
-                        new LinearPercentIndicator(
+                        LinearPercentIndicator(
                           width: 140.0,
                           barRadius: Radius.circular(10),
                           lineHeight: 10.0,
@@ -292,7 +292,7 @@ class Searchleads extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 250),
-                        new LinearPercentIndicator(
+                        LinearPercentIndicator(
                           width: 140.0,
                           barRadius: Radius.circular(10),
                           lineHeight: 10.0,
@@ -390,7 +390,7 @@ class Searchleads extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 250),
-                        new LinearPercentIndicator(
+                        LinearPercentIndicator(
                           width: 140.0,
                           barRadius: Radius.circular(10),
                           lineHeight: 10.0,
@@ -488,7 +488,7 @@ class Searchleads extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 250),
-                        new LinearPercentIndicator(
+                        LinearPercentIndicator(
                           width: 140.0,
                           barRadius: Radius.circular(10),
                           lineHeight: 10.0,
@@ -586,7 +586,7 @@ class Searchleads extends StatelessWidget {
                           ),
                         ),
                         const SizedBox(width: 250),
-                        new LinearPercentIndicator(
+                        LinearPercentIndicator(
                           width: 140.0,
                           barRadius: Radius.circular(10),
                           lineHeight: 10.0,

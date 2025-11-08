@@ -226,7 +226,7 @@ class mark_order_payment extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             buildDashedborder(
-              child: Container(
+              child: SizedBox(
                 width: 500,
                 height: 180,
                 child: Column(
@@ -448,7 +448,7 @@ class mark_order_payment extends StatelessWidget {
             buildDashedborder(
               child: Column(
                 children: [
-                  Container(
+                  SizedBox(
                     height: 100,
                     width: 500,
                     child: Icon(
@@ -531,7 +531,7 @@ class mark_order_payment extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             buildDashedborder(
-              child: Container(
+              child: SizedBox(
                 height: 190,
                 width: 500,
                 child: Column(
