@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:lift_sale/akshaya/CreateQuotation.dart';
 import 'package:lift_sale/akshaya/RecordPayment.dart';
 import 'package:lift_sale/akshaya/Terms_and_conditions.dart';
 import 'package:lift_sale/akshaya/akshaya.dart';
 
 import 'package:lift_sale/akshaya/createorder.dart';
+import 'package:lift_sale/akshaya/demo.dart';
 import 'package:lift_sale/akshaya/leadsfilter.dart';
 import 'package:lift_sale/akshaya/orders.dart';
 
 import 'package:lift_sale/akshaya/quotes.dart';
 import 'package:lift_sale/akshaya/searchorders.dart';
+import 'package:lift_sale/akshaya/task.dart';
+
 import 'package:lift_sale/akshitha/newlead.dart';
 import 'package:lift_sale/meena/RecentOrders.dart';
 import 'package:lift_sale/meena/SearchLeads.dart';
@@ -46,15 +50,18 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      //home: const MyHomePage(title: 'Flutter Demo Home Page'),
+
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
       //home: leaddetails(),
       //home: Searchorders(),
       //home: quotes(),
       //home: Createorder(),
       //home: Leadsfilter(),
       //home: terms_conditions(),
-      home: Recordpayment(),
+      //home: Recordpayment(),
       //home: orders(),
+      //home: task(),
+      //home: Createquotation(),
     );
   }
 }
